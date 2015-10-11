@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Апликација за вработување</title>
+</head>
+<body>
+	<table border="2" width="100%">
+		<th align="center" colspan="4"><h1>Апликација за вработување</h1>
+		<li align="center">Податоците од оваа апликација нема да бидат искористени за јавни цели</li></th>
+		<tr>
+			<td><h2>Лични информации</h2></td>
+			<td><h2>Контакт информации</h2></td>
+			<td>
+			<h2>Вештини и образование</h2>
+			</td>
+			<td><h2>Работно искуство </h2></td>
+		</tr>
+
+		<tr>
+			<td>
+				<label for="Име"><b>Име</b></label><br>
+			<input type="text" id="Име" name="Име" required><br>
+			<br>
+				<label for="Презиме"><b>Презиме</b></label><br>
+			<input type="text" id="Презиме" name="Презиме" required><br>
+			<br>
+			</td>
+			<td><label for="country"><b>Место на живеење</b></label><br>
+			<br>
+			<select name="country" id="country">
+				<option value="mk">Македонија</option>
+				<option value="sr">Србија</option>
+				<option value="bg">Бугарија</option>
+				<option value="hr">Хрватска</option>
+				<option value="grc">Грција</option>
+				<option value="clo">Словенија</option>
+
+			</select><br>
+			<br></td>
+			<td><label for="edu"><b>Образование</b></label><br>
+			<br>
+			<input type="checkbox" id="ССС" name="edu" /> ССС<br>
+			<input type="checkbox" id="ВСС" name="edu" /> ВСС<br>
+			<br>
+			<br></td>
+			<td rowspan="2"><label for="edu"><b>Ве молиме овде закачете го вашето CV</b></label><br><br>
+			<button><b>Испрати</b></button>
+				<br></td>
+		</tr>
+
+		<tr>
+			<td><label for="Пол"><b>Пол</b></label><br>
+			<br>
+		<label for="M">M</label>
+			<input type="radio" id="M" name="M"><br>
+			<br>
+		<label for="Ж">Ж</label>
+			<input type="radio" id="Ж" name="Ж"><br>
+			<br></td>
+			<td>	<label for="email"><b>Емаил</b></label><br>
+			<br>
+			<input type="email" id="email" name="email"><br>
+			<br></td>
+			<td>
+				<label for="vestini"><b>Вештини и курсеви</b></label><br><br>
+			<textarea rows="7" cols="70">Внесете ги вашите вештини и завршени курсеви
+			</textarea><br>
+			<br>
+			<br>
+			</td>
+		</tr>
+
+		<tr>
+			</td>
+
+		<tr align="left">
+			<td colspan="5"><br><li>По пополнувањето на апликацијата притиснете на копчето испрати.</li>
+			<li>Ви благодариме за аплицирањето во нашата фирма,за нашата одлука ке бидете известени по маил во најбрз можен рок</li><br>
+				<button ><a href="http://www.vrabotuvanje.com.mk/" target="blank"><b>Испрати</b></button>
+				<br>
+				<br>
+			</td>
+		</tr>
+		</tr>
+	</table>
+</body>
+</html>
